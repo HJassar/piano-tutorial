@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Piano!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<body>
+    <main>
+        <svg id="keyboard" viewBox="0 0 581 451" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="white-key" id="c"
+                d="M10 0C4.47715 0 0 4.47714 0 9.99999V441C0 446.523 4.47715 451 10 451H67C72.5229 451 77 446.523 77 441V300H58C52.4772 300 48 295.523 48 290V0H10Z"
+                 />
+            <path class="white-key" id="d"
+                d="M84 441V300H88C93.5228 300 98 295.523 98 290V0H146V290C146 295.523 150.477 300 156 300H161V441C161 446.523 156.523 451 151 451H94C88.4772 451 84 446.523 84 441Z"
+                 />
+            <path class="white-key" id="e"
+                d="M235 0C240.523 0 245 4.47714 245 9.99999V441C245 446.523 240.523 451 235 451H178C172.477 451 168 446.523 168 441V300H187C192.523 300 197 295.523 197 290V0H235Z"
+                 />
+            <path class="white-key" id="f"
+                d="M262 0C256.477 0 252 4.47714 252 9.99999V441C252 446.523 256.477 451 262 451H319C324.523 451 329 446.523 329 441V300H310C304.477 300 300 295.523 300 290V0H262Z"
+                 />
+            <path class="white-key" id="g"
+                d="M336 441V300H339C344.523 300 349 295.523 349 290V0H392V290C392 295.523 396.477 300 402 300H413V441C413 446.523 408.523 451 403 451H346C340.477 451 336 446.523 336 441Z"
+                 />
+            <path class="white-key" id="a"
+                d="M497 441V300H494C488.477 300 484 295.523 484 290V0H441V290C441 295.523 436.523 300 431 300H420V441C420 446.523 424.477 451 430 451H487C492.523 451 497 446.523 497 441Z"
+                 />
+            <path class="white-key" id="b"
+                d="M571 0C576.523 0 581 4.47714 581 9.99999V441C581 446.523 576.523 451 571 451H514C508.477 451 504 446.523 504 441V300H523C528.523 300 533 295.523 533 290V0H571Z"
+                 />
+            <path class="black-key" id="c_sharp"
+                d="M51 0H94V287C94 292.523 89.5228 297 84 297H61C55.4772 297 51 292.523 51 287V0Z" />
+            <path class="black-key" id="d_sharp"
+                d="M150 0H193V287C193 292.523 188.523 297 183 297H160C154.477 297 150 292.523 150 287V0Z" />
+            <path class="black-key" id="f_sharp"
+                d="M303 0H346V287C346 292.523 341.523 297 336 297H313C307.477 297 303 292.523 303 287V0Z" />
+            <path class="black-key" id="g_sharp"
+                d="M395 0H438V287C438 292.523 433.523 297 428 297H405C399.477 297 395 292.523 395 287V0Z" />
+            <path class="black-key" id="a_sharp"
+                d="M487 0H530V287C530 292.523 525.523 297 520 297H497C491.477 297 487 292.523 487 287V0Z" />
+        </svg>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

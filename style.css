@@ -1,0 +1,48 @@
+:root {
+    --Background: #2E2E2E;
+    --Primary: #8180FF;
+    --White: #FFFFFF;
+    --Black: #000000;
+}
+
+body {
+    background-color: var(--Background);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#keyboard {
+    width: 95%;
+}
+
+.white-key, .black-key {
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.white-key {
+    fill: var(--White);
+}
+
+.black-key {
+    fill: var(--Black);
+}
+
+.white-key:active, .black-key:active {
+    fill: var(--Primary);
+}
+
+
+@media screen and (orientation: landscape) {
+    #keyboard {
+        height: 75%;
+    }
+}
